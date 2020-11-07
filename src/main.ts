@@ -1,6 +1,6 @@
 import Pagination from "./components/Pagination.vue"
 import List from "./components/List.vue"
-import DataTable from "./components/Table/DataTable.vue"
+import DataTable from "./components/DataTable.vue"
 
 const components = [
     Pagination,

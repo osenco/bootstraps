@@ -1,7 +1,30 @@
 {
   "name": "@osenco/bootstraps",
-  "version": "0.1.0",
-  "private": true,
+  "description": "Component library to bootstrap Vue Projects",
+  "keywords": [
+    "vue",
+    "bootstrap",
+    "js",
+    "css",
+    "components"
+  ],
+  "version": "0.1.1",
+  "main": "./dist/bootstraps.umd.min.js",
+  "unpkg": "./dist/bootstraps.umd.min.js",
+  "jsdelivr": "./dist/bootstraps.umd.min.js",
+  "author": {
+    "name": "Osen Concepts",
+    "email": "hi@osen.co.ke",
+    "url": "https://osen.co.ke"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osenco/bootstraps"
+  },
+  "bugs": {
+    "url": "https://github.com/osenco/bootstraps"
+  },
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name bootstraps src/main.ts",
@@ -10,7 +33,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.6.5"
+  },
+  "peerDependencies": {
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -39,10 +64,6 @@
   },
   "files": [
     "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
-  ],
-  "main": "./dist/bootstraps.umd.js"
+    "src/*"
+  ]
 }
